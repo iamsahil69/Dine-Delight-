@@ -1,0 +1,286 @@
+*{
+padding:0;
+margin: 0px 0px;
+}
+.banner{
+width: 100%;
+background: #D21F3C;
+height: 600px;
+margin-right:0px;
+//background-image: url('./assets/banner1.jpeg');
+}
+.container{
+margin-left:15%;
+margin-right: 15%;
+width:70%;
+}
+.non-veg{
+display:none;
+}
+.banner h1{
+color: whitesmoke;
+text-align:center;
+font-family: serif;
+padding: 15px 10px;
+margin: 0px 0px;
+font-weight: 500;
+}
+.banner span{
+//font-family: helvetica, san-serif;
+font-family: 'Playfair Display', serif;
+font-weight: 100;
+text-align: left;
+}
+.container1{
+display:flex;
+}
+.dishes-box h1{
+padding: 20px 15px;
+font-family: serif;
+font-weight: 300;
+text-align: center;
+margin: 20px 10px;
+font-size: 26px;
+}
+.btns{
+padding: 15px 15px;
+margin: 10px 10px;
+text-align: center;
+}
+.btns button{
+padding: 15px 10px;
+margin: 10px 15px;
+color: white;
+outline:none;
+border-radius: 5px;
+border: none;
+font-size: 22px;
+width: 150px;
+font-family: serif;
+}
+#veg{
+background: #a3ca65;
+}
+#non-veg{
+background: #a46c2c;
+}
+.card{
+flex:1;
+width: 50%;
+height: 400px;
+margin: 2% 2%;
+background: #f6f6f6;
+border-radius:4px;
+}
+.card img{
+width: 100%;
+height: 250px;
+margin-bottom: 10px;
+}
+.card h3{
+padding: 15px 10px;
+}
+.card p{
+padding: 15px 10px;
+}
+.sign-up, .menu{
+padding:10px 10px;
+width:60%;
+margin: 0% 20%;
+}
+.menu{
+display: none;
+}
+.order h1{
+padding: 10px;
+font-size:26;
+text-align:center;
+color: grey;
+font-family: serif;
+
+}
+.order button{
+font-family: serif;
+padding:10px 15px;
+margin: 15px 0px;;
+width: 100%;
+border:none;
+outline: none;
+background: #d0d0d0;
+color:grey;
+border-radius: 10px;
+font-size: 22px;
+}
+.sign-up button{
+background: #20639B;
+color: white;
+width:100%;
+}
+.menu button{
+background: #a3ca65;
+color: white;
+}
+.sign-up label, .menu label{
+padding: 5px 10px;
+margin: 2px 2px;
+font-family: serif;
+display: block;
+font-size: 18px;
+}
+.sign-up input[type="text"]{
+width: 100%;
+padding: 8px 5px;
+outline:none;
+font-family: serif;
+margin: 5px 0px;
+border: 2px solid #d0d0d0;
+border-radius: 2px;
+}
+.sign-up input[type="email"]{
+width: 100%;
+padding: 8px 5px;
+outline:none;
+font-family: serif;
+margin: 5px 0px;
+border: 2px solid #d0d0d0;
+border-radius: 2px;
+}
+.menu select{
+width: 100%;
+padding: 8px 5px;
+outline:none;
+font-family: serif;
+margin: 5px 0px;
+}
+.bill-box{
+ padding: 10px 8px;
+ margin-left:15%;
+ margin-right: 15%;
+background: #E1F6FF;
+//color: #2349B9;
+color: grey;
+width: 70%;
+border-radius: 10px;
+margin-top: 25px;
+margin-bottom:25px;
+display:none;
+}
+.bill-box h2{
+padding: 8px 10px;
+margin: 5px 5px;
+text-align:center;
+font-family: serif;
+font-size: 20px;
+}
+.bill-box .msg{
+padding: 15px 0px;
+text-align:center;
+font-family:serif;
+font-size: 18px;
+}
+.bill-box .bill{
+margin-left:20%;
+margin-right:20%;
+width:60%;
+}
+.bill-box .bill span{
+padding:10px 5px;
+margin: 5px 5px;
+}
+.bill-box .information span{
+padding:2px 5px;
+margin:0px 5px;
+display:block;
+font-size: 18px;
+font-weight: 300;
+font-family: serif;
+}
+
+table{
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+cell-padding: 15px;
+cell-spacing: 10px;
+margin-top: 10px;
+//border: 1px solid #333;
+
+}
+td{
+text-align:center;
+}
+.bill-box button{
+text-decoration: none;
+background: #20639B;
+padding: 10px 10px;
+color: white;
+font-family: serif;
+border-radius: 5px;
+font-size: 18px;
+width: 80px;
+margin: 10px;
+border:none;
+outline:none;
+}
+.gallery{
+margin: 15px 0px;
+padding: 0 8px;
+}
+.gallery h1{
+padding: 10px;
+font-size:26;
+text-align:center;
+color: grey;
+font-family: serif;
+
+}
+.gallery img{
+width: 100%;
+height:400px;
+border-radius:5px;
+}
+.gallery p{
+padding: 15px 10px;
+margin:10px 10px;
+text-align:center;
+}
+.gallery button{
+padding:10px 15px;
+margin:10px 15px;
+width: 100px;
+font-size: 22px;
+background: #d0d0d0;
+outline: none;
+border:none;
+border-radius: 8px;
+color: grey;
+}
+.about-us{
+padding: 30px 10px;
+}
+.about-us h1{
+padding: 10px;
+font-size:26;
+text-align:center;
+color: grey;
+font-family: serif;
+}
+.about-us p{
+padding: 15px 10px;
+text-align:center;
+font-weight: 300;
+}
+.footer{
+background: #808080;
+padding: 10px 15px;
+margin-top:15px;
+
+}
+.footer p{
+padding: 10px 8px;
+color: white;
+text-align:center;
+font-family: serif;
+font-weight: 300;
+font-size: 18px;
+}
