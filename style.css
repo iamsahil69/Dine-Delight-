@@ -191,7 +191,7 @@ margin: 5px 5px;
 padding:2px 5px;
 margin:0px 5px;
 display:block;
-font-size: 18px;
+font-size: 14px;
 font-weight: 300;
 font-family: serif;
 }
@@ -208,6 +208,7 @@ margin-top: 10px;
 }
 td{
 text-align:center;
+font-size:14px;
 }
 .bill-box button{
 text-decoration: none;
