@@ -24,6 +24,8 @@ font-family: serif;
 padding: 15px 10px;
 margin: 0px 0px;
 font-weight: 500;
+left: 0px;
+position: absolute;
 }
 .banner span{
 //font-family: helvetica, san-serif;
